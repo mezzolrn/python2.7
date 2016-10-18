@@ -6,6 +6,7 @@ def song_decoder(song,rm):
 		new_song = new_song + ' ' + i
 	return new_song.strip()
 
+	
 song = raw_input('mixed song:')
 rm = raw_input('the thing need to remove:')
 print song_decoder(song,rm)
