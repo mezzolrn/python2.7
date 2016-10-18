@@ -7,5 +7,5 @@ def find_it(seq):
             return a
 
 
-que = raw_input("some squence:")
+que = raw_input('some squence:')
 print find_it(que)
