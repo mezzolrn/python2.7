@@ -5,10 +5,8 @@ totle = 0
 for line in txt:
 	tmp = re.findall('[0-9]+',line)
 	if len(tmp) == 0:continue
-	i = 0
-	while i < len(tmp):
-		totle = totle + int(tmp[i])
-		i = i + 1
+	for i in tmp:
+		totle = totle + int(i)
 	
 
 print totle
